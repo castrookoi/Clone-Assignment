@@ -9,12 +9,12 @@ body {
 .container {
   background-color: #fff;
   border: 2px solid #4a8ee3;
-  width: 800px;
-  height: 750px;
-  margin: 20px auto;
-  padding: 0 40px 40px 40px;
+  width: 800px; 
+  height: 750px; 
+  margin: 20px auto; 
+  padding: 0 40px 40px 40px; 
   box-shadow: 3px 3px 7px #b6b5bd;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 /* Element One */
@@ -65,8 +65,8 @@ body {
 
 /* Element Four */
 .element-four {
-  border: dashed 2.5px #9c57b2;
-  height: 320px;
+  border: dashed 3px #9c57b2;
+  height: 310px;
   margin-top: 20px;
 }
 
@@ -78,7 +78,7 @@ body {
   text-align: center;
   font-weight: 600;
   padding: 40px 0 20px;
-  margin: 0;
+  margin-top: 20px;
   line-height: 30px;
 }
 
@@ -86,12 +86,15 @@ body {
 .element-Six {
   border: 12px solid #c23a2e;
   height: 110px;
-  width: 440px;
+  width: 440px; 
   background-color: #e84c3d;
+  margin-left: 50px;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .element-Six p {
+
   text-align: center;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -99,3 +102,4 @@ body {
   margin: 0;
   padding: 10px;
 }
+

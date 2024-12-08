@@ -1,69 +1,100 @@
-body{
-    background-color: #f0f3f8;
+/* Body Styling */
+body {
+  background-color: #f0f3f8;
 }
 
-.container{
-    background-color: #fff;
-    border-color: #4a8ee3;
-    border-width: 2px;
-    border-style: solid;
-    width: 60%;
-    margin: auto;
-    height: 800px;
-    padding: 40px;
-    box-shadow: 3px 3px 7px #b6b5bd;
+/* Container Styling */
+.container {
+  background-color: #fff;
+  border-color: #4a8ee3;
+  border-width: 2px;
+  border-style: solid;
+  width: 60%;
+  margin: auto;
+  height: 750px;
+  padding-top: -20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  box-shadow: 3px 3px 7px #b6b5bd;
 }
 
 /* Element One */
-
-.element-one{
-    border-bottom: 3px solid #bd7674 ;
-    height: 125px;
-    
+.element-one {
+  border-bottom: 3px solid #bd7674;
+  height: 80px;
+  margin-top: 20px;
 }
 
-.element-one h1{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 100px;
+.element-one h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4rem;
 }
 
+/* Element Two */
+
+.element-two {
+  border-left: 6px solid #3a96d9;
+  height: auto;
+  margin-top: 20px;
+  background-color: #e9f4f8;
+  margin-bottom: 20px;
+}
+
+.element-two p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  padding: 18px;
+  line-height: 30px;
+}
 /* Element Three */
-
-.element-two{
-    border-left: 10px solid #3a96d9 ;
-    height: 125px;
-    height: 210px;
-    margin-top: 20px;
-    background-color: #e9f4f8;
-    
-    
+.element-three {
+  border-right: 6px solid #f89a12;
+  height: auto;
+  margin-top: 20px;
+  background-color: #fff3cd;
 }
 
-.element-two p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 45px;
-    padding: 18px;
-    line-height: 53px;
- 
+.element-three p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  padding: 18px;
+  line-height: 30px;
 }
 
-/* Element Three */
-.element-three{
-    border-right: 10px solid #3a96d9 ;
-    height: 125px;
-    height: 136px;
-    margin-top: 20px;
-    background-color: #e9f4f8;
-    
-    
+/* Element Four */
+.element-four {
+  border: dashed 2.5px #9c57b2;
+  height: 320px;
+  margin-top: 20px;
 }
 
-.element-three p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 38px;
-    padding: 15px;
-    line-height: 53px;
- 
+/* Element Five */
+.element-five h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  color: #8b4aa8;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+
+/* Element Six */
+.element-Six {
+  border: 12px solid #c23a2e;
+  height: 110px;
+  width: 55%;
+  background-color: #e84c3d;
+  margin-left: 50px;
+}
+
+.element-Six p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
 }
